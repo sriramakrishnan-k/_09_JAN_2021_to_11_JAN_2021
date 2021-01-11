@@ -26,7 +26,7 @@ class WrapperClasses{
     Wrapper obj = new Wrapper(sc.nextInt());
     //
     System.out.println("Before -> obj.n = " + obj.n);
-    change(obj);//passing obj as a arg (pass by reference indirect takes place)
+    change(obj);//passing obj as a arg (pass by reference indirectly takes place)
                 //changes reflect
     System.out.println("After -> obj.n = " + obj.n);
     System.out.println("Before -> obj.n = " + obj.n);
