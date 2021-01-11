@@ -13,11 +13,11 @@
 //package _09_JAN_2021_to_11_JAN_2021;
 import java.util.Scanner;
 
-//Here class A and Class String exhibit aggregate(has-a) relation ship
-//                                      ````````````````
-//                                      ````````````````
-//which mean A has a String in it.
-// No inheritance
+//Here class A and Class String exhibit composition or aggregation(has-a) relationship
+//                                      `````````````````````````````````
+//                                      ````````````````````````````````
+//which mean A has a String in it or it contain a string.
+// Not a inheritance
 class A{
     public String s;  // default to null because String is also a (class)reference type in java
 }

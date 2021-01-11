@@ -1,5 +1,6 @@
 //package _09_JAN_2021_to_11_JAN_2021;
 
+// Inheritance (Is - a) relationship
 abstract class Abc{
     // commenting  this (show method) or removing it in this abstract class will gives error 
     // since 3 interface are exhibit multple inheritance and 
